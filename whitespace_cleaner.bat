@@ -36,4 +36,4 @@ setlocal enabledelayedexpansion
 for /F "tokens=*" %%A in (%inputFile%) do (
   set line=%%A
   echo(!line:%delim%=!>>%outputFile%
- )
+)
