@@ -1,5 +1,5 @@
-# remove_spaces
-`remove_spaces.bat` is a batch script used to remove spaces in the contents of a `.txt` file. It has has functionality to remove other specified characters (or strings).
+# Whitespace Cleaner
+`whitespace_cleaner.bat` is a batch script used to remove spaces in the contents of a `.txt` file. It has has functionality to remove other specified characters (or strings).
 
 The original purpose of this script was to remove spaces after commas in a `.csv` file.
 
@@ -19,11 +19,11 @@ The original purpose of this script was to remove spaces after commas in a `.csv
 
 ## Basic Instructions
 
-1. Paste `replace_characters.bat` in the directory of the file you wish to modify (or vice versa).
+1. Paste `whitespace_cleaner.bat` in the directory of the file you wish to modify (or vice versa).
 
 2. Rename your `.txt` file to `input_file.txt` 
 
-3.  Double-click `replace_characters.bat` to run script and follow instructions on Command Prompt (if applicable)
+3.  Double-click `whitespace_cleaner.bat` to run script and follow instructions on Command Prompt (if applicable)
 
 > [!NOTE]
 > This will *not* modify the existing file. It will creat a copy to save to.
@@ -32,18 +32,18 @@ The original purpose of this script was to remove spaces after commas in a `.csv
 
 1. In File Explorer, navigate the the directory of the files you want to modify.
 
-3. Paste `replace_characters.bat`.
+3. Paste `whitespace_cleaner.bat`.
 
 4. In the File Explorer search tree, replace the text with `cmd` and hit Enter to open Command Prompt in the current directory[^2].
 
 To assign the file to modify, run:
 ```
-replace_characters.bat -i input_file.txt
+whitespace_cleaner.bat -i input_file.txt
 ```
 
 To assign the file to modify, the save file name, and remove the character "_", run:
 ```
-replace_characters.bat -i input_file.txt -o output_file.txt -d _
+whitespace_cleaner.bat -i input_file.txt -o output_file.txt -d _
 ```
 
 
