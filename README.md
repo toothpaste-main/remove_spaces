@@ -44,24 +44,5 @@ To assign the file to modify, the save file name, and remove the character "_", 
 replace_characters.bat -i input_file.txt -o output_file.txt -d _
 ```
 
-# Modifying `replace_characters.bat`
-
-## Changing Defaults
-
-### Delimiter
-
-To change the default delimiter to "-", replace:
-```
-rem  assign delimiter
-if "%~1"=="-d" (set "delim=%~2" & shift & shift) else (set "delim= ")
-```
-
-With:
-```
-rem  assign delimiter
-if "%~1"=="-d" (set "delim=%~2" & shift & shift) else (set "delim=-")
-```
-
-
 
 [^2]: [YouTube tutorial](https://www.youtube.com/shorts/FDkXqlSx8B4)
