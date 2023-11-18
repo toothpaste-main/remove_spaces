@@ -1,5 +1,7 @@
 @echo off
 
+rem  Whitespace Cleaner
+
 rem  Remove spaces in a txt file and write to a new file.
 
 rem  Parameters (order matters!):
