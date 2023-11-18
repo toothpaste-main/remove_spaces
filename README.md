@@ -1,6 +1,8 @@
 # remove_spaces
 `remove_spaces.bat` is a batch script used to remove spaces in the contents of a `.txt` file. It has has functionality to remove other specified characters (or strings).
 
+The original purpose of this script was to remove spaces after commas in a `.csv` file.
+
 
 # Quick Start guide
 
